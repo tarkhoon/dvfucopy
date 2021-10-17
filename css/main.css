@@ -72,44 +72,6 @@ body{
     100% { opacity: 0; }
   }
   
-.fadein { 
-position:relative; 
-width:100%;
-}
-.fadein img { 
-position: absolute; 
-width:100%; 
-left:0; 
-right:0; 
-opacity:0; 
-animation-name: fade; 
-animation-duration: 27s; 
-animation-iteration-count: infinite; 
-}
-.fadein img:nth-child(1){ 
-animation-delay: 0s;
-}
-.fadein img:nth-child(2){ 
-    animation-delay: 3s;
-}
-.fadein img:nth-child(3){ 
-    animation-delay: 6s;
-}
-.fadein img:nth-child(4){ 
-    animation-delay: 9s;
-}
-.fadein img:nth-child(5){ 
-    animation-delay: 12s;
-}
-.fadein img:nth-child(6){ 
-    animation-delay: 15s;
-}
-.fadein img:nth-child(7){ 
-    animation-delay: 18s;
-}
-.fadein img:nth-child(8){ 
-    animation-delay: 21s;
-}
-.fadein img:nth-child(9){ 
-    animation-delay: 24s;
-}
+  .fadein { position:relative; width:100%;}
+  .fadein img { position: absolute; width:100%; left:0; right:0; opacity:0; animation-name: fade; animation-duration: 27s; animation-iteration-count: infinite; }
+  .fadein img:nth-child(1){ animation-delay: 3s;}
