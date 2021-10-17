@@ -73,5 +73,5 @@ body{
   }
   
   .fadein { position:relative; width:100%;}
-  .fadein img {width:100%; left:0; right:0; opacity:0; animation-name: fade; animation-duration: 9s; animation-iteration-count: infinite; }
+  .fadein img { position: absolute; width:100%; left:0; right:0; opacity:0; animation-name: fade; animation-duration: 9s; animation-iteration-count: infinite; }
   .fadein img:nth-child(1){ animation-delay: 3s;}
