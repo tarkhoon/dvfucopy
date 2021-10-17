@@ -2,26 +2,31 @@
     width: 100%;
     height: 300px;
 }
+
 .container{
     margin-left: auto;
     margin-right: auto;
 }
+
 .name{
     text-align: center;
     color: #0767B0;
     font-family: 'Open Sans';
 }
+
 .CallCenter
 {
     padding: 30px;
     margin: 30px;
 }
+
 .CallCenter:hover
 {
     padding: 30px;
     margin: 20px;
     text-decoration: underline;
 }
+
 .hide-mob{
     width: 100%;
     height: 40px;
