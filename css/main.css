@@ -19,6 +19,7 @@
     padding: 30px;
     margin: 30px;
     width: 10%;
+    height: 10px;
 }
 
 .CallCenter:hover
@@ -26,6 +27,7 @@
     padding: 30px;
     margin: 30px;
     width: 10%;
+    height: 10px;
     text-decoration: underline;
 }
 
