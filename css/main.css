@@ -19,7 +19,7 @@ body{
 
 .HeadBottom
 {
-    width: max-content;
+    width: max-content + 10px;
 }
 
 .HeadBottom:hover
