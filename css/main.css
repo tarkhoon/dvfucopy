@@ -17,15 +17,14 @@ body{
     margin-right: auto;
 }
 
-.CallCenter
+.HeadBottom
 {
     width: max-content;
 
 }
 
-.CallCenter:hover
+.HeadBottom:hover
 {
-
     text-decoration: underline;
 }
 
