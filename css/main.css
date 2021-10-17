@@ -16,17 +16,13 @@
 
 .CallCenter
 {
-    padding: 30px;
-    margin: 30px;
-    width: 10%;
+    width: 30px;
     height: 10px;
 }
 
 .CallCenter:hover
 {
-    padding: 30px;
-    margin: 30px;
-    width: 10%;
+    width: 30px;
     height: 10px;
     text-decoration: underline;
 }
