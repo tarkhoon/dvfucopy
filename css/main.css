@@ -1,6 +1,7 @@
 body{
     height: 2000px;
     margin: 0;
+    font-size: 14px;
 }
 .page-header{
 
@@ -11,11 +12,8 @@ body{
 .container{
     margin-left: auto;
     margin-right: auto;
-    display: flex;
     align-items: center;
-    height: 121px;
     color: #428bca;
-    
 }
 
 .logo{
@@ -50,6 +48,20 @@ nav{
     background: #0767B0;
     position:relative;
   }
+nav li a {
+    font-size: 15px;
+    color: #aed6ff;
+}
+nav li a:hover{
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    transition: color .3s .02s ease;
+    -o-transition: color .3s .02s ease;
+    -webkit-transition: color .3s .02s ease;
+}
 .fixed{
     position:fixed;
     left:0;
@@ -57,7 +69,66 @@ nav{
     right:0;
     z-index: 1001;
 }
+.menu{
+    color:#aed6ff;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    overflow: hidden;
+    height: 40px;
+    max-width: 1280px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px;
+}
+ul{
+    margin: 0px;
 
+}
+li{
+    line-height: 40px;
+}
+nav li ul {
+    text-align: left;
+    margin: 0 auto;
+}
+nav .menu>li:first-child {
+    margin-left: 50px;
+}
+nav .menu>li{
+    height: 40px;
+    padding: 0 15px;
+    display: inline-block;
+}
+@media (max-width: 992px) and (min-width: 0px){
+    .blue-bg .list-menu li {
+        width: 25% !important;
+        margin-right: 5% !important;
+    } 
+}
+@media (max-width: 1301px) and (min-width: 993px){
+    .blue-bg .list-menu li {
+        width: 20% !important;
+    }
+}
+
+.blue-bg .list-menu {
+    width: 100%;
+    padding: 20px;
+}
+.blue-bg .list-menu, .blue-bg .prevu-menu {
+    display: inline-block;
+    vertical-align: top;
+}
+.blue-bg .list-menu li {
+    width: 28%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 5% 5px 0;
+    padding: 0 0 7px;
+    line-height: 18px;
+    border-bottom: 1px solid #0c6494;
+}
 .pic{
     height:24px;
     margin-left: 10px;
@@ -70,7 +141,19 @@ nav{
     margin-right: auto;
     text-align: center;
 }
-
+.show{
+    display: block !important;
+}
+.blue-bg{
+    width: 100%;
+    top: 40px;
+    background: #005698;
+    position: absolute;
+    z-index: 1500;
+    left: 0;
+    display: none;
+    text-align: left;
+}
 @media (min-width: 1200px){
     .container{
         width: 1280px;
