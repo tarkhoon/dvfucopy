@@ -154,6 +154,50 @@ nav .menu>li{
     display: none;
     text-align: left;
 }
+
+.blue{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1250px;
+    height: 416px;
+    background: blue;
+    align-items: center;
+    position: relative;
+    margin-top: 20px;
+}
+
+.without{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1250px;
+    height: 425px;
+    background: blue;
+    align-items: center;
+    position: relative;
+    margin-top: 400px;
+}
+
+.left{
+    width: 290px;
+    height: 425;
+    background: yellow;
+    float: left;
+    z-index: 100;
+}
+.center{
+    width: 350px;
+    height: 425;
+    background: yellow;
+    z-index: 100;
+}
+.right{
+    width: 290px;
+    height: 425;
+    background: yellow;
+    float: right;
+    z-index: 100;
+}
+
 @media (min-width: 1200px){
     .container{
         width: 1280px;
@@ -202,7 +246,7 @@ animation-duration: 27s;
 animation-iteration-count: infinite; 
 }
 .fadein img:nth-child(1){ 
-animation-delay: 0s;
+    animation-delay: 0s;
 }
 .fadein img:nth-child(2){ 
     animation-delay: 3s;
