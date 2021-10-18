@@ -12,6 +12,9 @@ body{
     margin-right: auto;
     display: flex;
     align-items: center;
+    height: 121px;
+    color: #428bca;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .logo{
@@ -24,6 +27,7 @@ body{
     display: flex;
     height: 100%;
     width: 16.66666667%;
+    align-items: center;
 }
 
 .HeadBottom:hover
@@ -47,7 +51,7 @@ nav{
     position:fixed;
   }
 
-.RU,.EN{
+.pic{
     height:24px;
     margin-left: 10px;
     margin-right: 10px;
