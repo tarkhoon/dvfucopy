@@ -71,6 +71,13 @@ nav{
     text-align: center;
 }
 
+.bluecont{
+    align-items: center;
+    width: 1250;
+    height: 416,650;
+    background: #0767B0;
+}
+
 @media (min-width: 1200px){
     .container{
         width: 1280px;
