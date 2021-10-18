@@ -1,21 +1,25 @@
 (function(){
-    var previousScroll = document.documentElement.scrollTop;
+    var header = document.querySelector('header');
     var nav = document.querySelector('nav');
     var timeout = null;
     window.addEventListener('scroll', function(e){
       if(!timeout){
         timeout = setTimeout(function(){
           var curScroll = document.documentElement.scrollTop;
-          if(curScroll > previousScroll){
+          if(curScroll > 121){
             nav.classList.add('fixed');
-            previousScroll = curScroll;
-          }else if(curScroll < previousScroll){
+            header.classList.remove('margin0');
+            header.classList.add('margin41');
+            //previousScroll = curScroll;
+          }else if(curScroll < 121){
             nav.classList.remove('fixed');
-            previousScroll = curScroll;
+            header.classList.remove('margin41');
+            header.classList.add('margin0');
+            //previousScroll = curScroll;
           }
           clearTimeout(timeout);
           timeout = null;
-        }, 100);
+        }, 0);
       }
     }); 
   }())
