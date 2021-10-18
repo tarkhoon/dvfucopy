@@ -8,14 +8,14 @@
           var curScroll = document.documentElement.scrollTop;
           if(curScroll > 121){
             nav.classList.add('fixed');
-            header.classList.remove('margin0');
-            header.classList.add('margin41');
-            //previousScroll = curScroll;
+            //header.classList.remove('margin0');
+            //header.classList.add('margin40');
+            previousScroll = curScroll;
           }else if(curScroll < 121){
             nav.classList.remove('fixed');
-            header.classList.remove('margin41');
-            header.classList.add('margin0');
-            //previousScroll = curScroll;
+            //header.classList.remove('margin40');
+            //header.classList.add('margin0');
+            previousScroll = curScroll;
           }
           clearTimeout(timeout);
           timeout = null;
