@@ -207,6 +207,11 @@ nav .menu>li{
     padding-right: 15px;
     padding-left: 15px;
 }
+.left, .right{
+    font-size: 16px;
+    color: #464c4f;
+    line-height: 20px;
+}
 .icon{
     position: absolute;
     vertical-align: middle;
@@ -284,8 +289,8 @@ nav .menu>li{
 .righttext p{
 float: right;
 margin-right: 15px;
-padding-top: calc(41px/2);
-padding-bottom: calc(41px/2);
+padding-top: calc(33px/2);
+padding-bottom: calc(33px/2);
 }
 
 @media (min-width: 1200px){
