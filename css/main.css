@@ -86,7 +86,7 @@ a{
 }
 ul{
     margin: 0px;
-
+    list-style-type: none;
 }
 li{
     line-height: 40px;
@@ -311,6 +311,7 @@ footer nav{
 .row{
     margin-left: -15px;
     margin-right: -15px;
+    display: flex;
 }
 @media (min-width: 769px) and (max-width: 1199px){
     .row-flex {
@@ -423,4 +424,7 @@ hr.blue-line {
 }
 .pull-right {
     float: right !important;
+}
+.title{
+    display: inline-block;
 }
