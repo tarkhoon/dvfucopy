@@ -562,3 +562,11 @@ hr.blue-line {
     position: relative;
     padding-top: 0;
 }
+.blue-block{
+    background: #e6eff6;
+    padding: 45px 0 0;
+    border-top: 1px solid #d8e1e8;
+}
+footer .menu{
+    max-width: none;
+}
