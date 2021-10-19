@@ -179,23 +179,15 @@ nav .menu>li{
 }
 
 .left{
-    margin: auto;
-    width: auto;
-    float: left;
+    width: 25%;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .center{
-    margin: auto;
-    width: auto;
-    text-align: center;
-    color: red;
-}
-
-.right{
-    margin: auto;
-    width: auto;
-    background: red;
-    float: right;
+    width: 49%;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .icon{
@@ -257,6 +249,11 @@ nav .menu>li{
 
 .bottombutton:hover{
     background: #055EA2;
+}
+
+.righttext{
+    float: left;
+    width: calc(100% - 64px);
 }
 
 @media (min-width: 1200px){
