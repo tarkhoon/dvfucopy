@@ -211,6 +211,30 @@ nav .menu>li{
     height: 85px;
 }
 
+.L1Bar:hover{
+    background: #0072b6;
+}
+
+.L2Bar:hover{
+    background: #428bca;
+}
+
+.L3Bar:hover{
+    background: #4dbbe9;
+}
+
+.L4Bar:hover{
+    background: #01b8bc;
+}
+
+.L5Bar:hover{
+    background: #009d75;
+}
+
+.text:hover{
+    color: white;
+}
+
 .righticon{
     width: 85px;
     height: 85px;
@@ -218,15 +242,20 @@ nav .menu>li{
 }
 
 .text{
-    margin-left: 100px;
-    position: relative;
-    vertical-align: text-top;
+    padding-top: 35px;
+    padding-left: 100px;
+    padding-bottom: 35px;
+    margin-right: 20px;
 }
 
 .coub{
     position: absolute;
     width: 85px;
     height: 85px;
+}
+
+.bottombutton:hover{
+    background: #055EA2;
 }
 
 @media (min-width: 1200px){
