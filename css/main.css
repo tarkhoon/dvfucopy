@@ -347,10 +347,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .h2, h2 {
     font-size: 30px;
 }
-.h1, .h2, .h3, h1, h2, h3 {
+/*.h1, .h2, .h3, h1, h2, h3 {
     margin-top: 20px;
     margin-bottom: 10px;
-}
+}*/
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     font-family: inherit;
     font-weight: 500;
@@ -364,7 +364,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-size: 18px;
 }
 .row-flex .h2 {
-    margin-top: 20px;
+   /* margin-top: 20px;*/
     display: inline-block;
 }
 .press-center .row-flex a.h2 {
