@@ -178,6 +178,10 @@ nav .menu>li{
     padding: 30px;
 }
 
+.minecraft:hover{
+    opacity: 0.5;
+}
+
 .without{
     margin-left: auto;
     margin-right: auto;
