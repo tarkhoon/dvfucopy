@@ -196,9 +196,11 @@ nav .menu>li{
 
 .FBar{
     height: 85px;
+    background: #fff;
 }
 .rightFBar{
     height: 85px;
+    background: #fff;
 }
 .L1Bar:hover{
     background: #0072b6;
