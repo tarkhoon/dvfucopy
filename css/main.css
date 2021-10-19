@@ -130,7 +130,7 @@ nav .menu>li{
     border-bottom: 1px solid #0c6494;
 }
 .pic{
-    height:24px;
+    height: 24px;
     margin: 10px;
     float: left;
 }
@@ -160,7 +160,7 @@ nav .menu>li{
     margin-right: auto;
     width: 1250px;
     height: 416px;
-    background: blue;
+    background: #005698;
     align-items: center;
     position: relative;
     margin-top: 20px;
@@ -176,28 +176,34 @@ nav .menu>li{
 }
 
 .left{
+    margin: auto;
     width: 290px;
-    height: 425;
-    background: black;
+    background: red;
     float: left;
 }
 
 .center{
     width: 350px;
-    height: 425;
-    color: black;
+    color: red;
 }
 
 .right{
     width: 290px;
-    height: 425;
-    background: black;
+    background: red;
     float: right;
 }
 
 .icon{
-    width: 85px;
+    position: absolute;
+    vertical-align: middle;
+}
+
+.FBar{
+    margin: auto;
+    align-items: center;
     height: 85px;
+    vertical-align: middle;
+    text-align: left;
 }
 
 .righticon{
