@@ -553,3 +553,12 @@ hr.blue-line {
         width: 100%;
     }
 }
+.gazeta-post{
+    background: rgba(230, 230, 246, .5);
+    border-left: 1px solid #e5e6e7;
+    border-right: 1px solid #e5e6e7;
+    border-bottom: 1px solid #e5e6e7;
+    box-shadow: 0 2px 3px 0 rgb(0 0 0 / 10%);
+    position: relative;
+    padding-top: 0;
+}
