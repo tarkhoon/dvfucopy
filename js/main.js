@@ -1,6 +1,6 @@
 (function(){
     var nav = document.querySelector('nav');
-    var timeout = null;
+    let timeout = null;
     window.addEventListener('scroll', function(e){
       if(!timeout){
         timeout = setTimeout(function(){
@@ -44,3 +44,11 @@ function over2(){
 function hide2(){
     display2.classList.remove('show');
 }
+(function(){
+    setInterval(function() {
+        var hpic = document.getElementById('img1').offsetHeight;
+        document.getElementById('fadein').style.height = hpic + 'px';
+      }, 0);
+}())
+
+              
