@@ -17,6 +17,8 @@ body{
     margin-right: auto;
     align-items: center;
     color: #428bca;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .logo{
@@ -202,6 +204,14 @@ nav .menu>li{
     padding-right: 15px;
     padding-left: 15px;
 }
+.slider{
+    background: #fff;
+    width: 100%;
+    height: 100%;
+}
+.current{
+    float: right;
+}
 .right{
     width: 25%;
     padding-right: 15px;
@@ -374,7 +384,7 @@ footer nav{
 }
 .row{
     margin-left: -15px;
-
+    margin-right: -15px;
     display: flex;
 }
 @media (min-width: 769px) and (max-width: 1199px){
@@ -607,4 +617,26 @@ hr.blue-line {
 }
 footer .menu{
     max-width: none;
+}
+.ps-list{
+float: left;
+width: 27%;
+padding: 0;
+}
+.ps-list img{
+    width: 100%;
+    min-height: 100%;
+    display: block;
+}
+.current {
+    height: 425px!important;
+    width: 73%!important;
+}
+.current img{
+    width: 100%;
+}
+.ps-list li{
+    height: 85px!important;
+    overflow: hidden;
+    position: relative;
 }
