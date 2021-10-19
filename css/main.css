@@ -226,13 +226,6 @@ nav .menu>li{
     height: 85px;
 }
 
-.splash:hover{
-}
-
-.forms{
-    
-}
-
 @media (min-width: 1200px){
     .container{
         width: 1280px;
