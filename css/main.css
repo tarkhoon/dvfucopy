@@ -371,3 +371,20 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin: 3px 0;
     color: #0067b1;
 }
+hr.blue-line {
+    border: none;
+    width: 100%;
+    height: 4px;
+    background: #cfdbe4;
+    border-top: 1px solid #c4ced7;
+    margin-bottom: 0;
+}
+.blue-line {
+    border: none;
+    width: 100%;
+    height: 4px;
+    background: #cfdbe4;
+    border-top: 1px solid #c4ced7;
+    margin: 0;
+}
+
