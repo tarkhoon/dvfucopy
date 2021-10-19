@@ -177,18 +177,20 @@ nav .menu>li{
 
 .left{
     margin: auto;
-    width: 290px;
-    background: red;
+    width: auto;
     float: left;
 }
 
 .center{
-    width: 350px;
+    margin: auto;
+    width: auto;
+    text-align: center;
     color: red;
 }
 
 .right{
-    width: 290px;
+    margin: auto;
+    width: auto;
     background: red;
     float: right;
 }
@@ -196,20 +198,39 @@ nav .menu>li{
 .icon{
     position: absolute;
     vertical-align: middle;
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 55px;
+    height: auto;
 }
 
 .FBar{
-    margin: auto;
-    align-items: center;
     height: 85px;
-    vertical-align: middle;
-    text-align: left;
 }
 
 .righticon{
     width: 85px;
     height: 85px;
     float: right;
+}
+
+.text{
+    margin-left: 100px;
+    position: relative;
+    vertical-align: text-top;
+}
+
+.coub{
+    position: absolute;
+    width: 85px;
+    height: 85px;
+}
+
+.splash:hover{
+}
+
+.forms{
+    
 }
 
 @media (min-width: 1200px){
