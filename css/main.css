@@ -195,11 +195,15 @@ nav .menu>li{
 }
 
 .center{
-    width: 49%;
+    width: 50%;
     padding-right: 15px;
     padding-left: 15px;
 }
-
+.right{
+    width: 25%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 .icon{
     position: absolute;
     vertical-align: middle;
@@ -211,8 +215,12 @@ nav .menu>li{
 
 .FBar{
     height: 85px;
+    background: #fff;
 }
-
+.rightFBar{
+    height: 85px;
+    background: #fff;
+}
 .L1Bar:hover{
     background: #0072b6;
     color: white;
@@ -252,9 +260,14 @@ nav .menu>li{
 }
 
 .coub{
-    position: absolute;
     width: 85px;
     height: 85px;
+    position: absolute;
+}
+.coubr{
+    width: 85px;
+    height: 85px;
+    float: right;
 }
 
 .bottombutton:hover{
@@ -263,7 +276,13 @@ nav .menu>li{
 
 .righttext{
     float: left;
-    width: calc(100% - 64px);
+    width: calc(100% - 85px);
+}
+.righttext p{
+float: right;
+margin-right: 15px;
+padding-top: calc(41px/2);
+padding-bottom: calc(41px/2);
 }
 
 @media (min-width: 1200px){
