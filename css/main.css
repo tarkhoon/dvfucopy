@@ -367,3 +367,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin-top: 20px;
     display: inline-block;
 }
+.press-center .row-flex a.h2 {
+    margin: 3px 0;
+    color: #0067b1;
+}
