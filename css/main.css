@@ -213,25 +213,26 @@ nav .menu>li{
 
 .L1Bar:hover{
     background: #0072b6;
+    color: white;
 }
 
 .L2Bar:hover{
     background: #428bca;
+    color: white;
 }
 
 .L3Bar:hover{
     background: #4dbbe9;
+    color: white;
 }
 
 .L4Bar:hover{
     background: #01b8bc;
+    color: white;
 }
 
 .L5Bar:hover{
     background: #009d75;
-}
-
-.text:hover{
     color: white;
 }
 
