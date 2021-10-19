@@ -449,3 +449,77 @@ hr.blue-line {
         width: 25%;
     }
 }
+@media (min-width: 992px){
+    .gazeta-post {
+        width: 25%;
+    }
+}
+.img-post img {
+    width: 100%;
+    height: auto;
+    transition: opacity .2s .02s ease;
+}
+@media (min-width: 992px){
+    .list-post {
+        width: 75%;
+    }
+}
+.post{
+    width: 33.3333%;
+    border-bottom: 1px solid #e1e6ed;
+    display: block;
+}
+.list-post{
+    padding-top: 20px;
+}
+.post, .list-post{
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.list-post .post .desc-post {
+    min-height: 63px;
+}
+.date-post {
+    font-size: 13px;
+    color: #879bb3;
+    line-height: 25px;
+    font-style: italic;
+}
+.pull-left {
+    float: left !important;
+}
+.text-right {
+    text-align: right !important;
+}
+.tags {
+    font-size: 13px;
+}
+.tags a {
+    white-space: nowrap;
+    font-style: italic;
+    color: #879bb3;
+    line-height: 25px;
+}
+.desc-post {
+    font-size: 15px;
+    color: #454e59;
+    margin-bottom: 5px;
+    line-height: 20px;
+}
+@media (min-width: 740px){
+    .gazeta-post {
+        margin-bottom: 30px;
+    }
+}
+.item-gazeta {
+    border-top: 1px solid #f3f7fb;
+    border-bottom: 1px solid #d5dbe3;
+    padding: 19px 38px 5px;
+}
+@media (min-width: 992px){
+    .item-gazeta {
+        width: 100%;
+    }
+}
