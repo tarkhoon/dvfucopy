@@ -397,7 +397,7 @@ footer nav{
             align-items: center;
         }
     }
-/*Параметры заголовков*/
+/*Параметры заголовков и текста*/
     h2, .h2 {
         font-size: 30px;
     }
@@ -527,79 +527,79 @@ footer nav{
     }
 }
 /* Параметры картинов постов, их блоков */
-.img-post img {
-    width: 100%;
-    height: auto;
-    transition: opacity .2s .02s ease;
-}
-.post{
-    width: 33.3333%;
-    border-bottom: 1px solid #e1e6ed;
-    display: block;
-}
-.list-post{
-    padding-top: 20px;
-}
-.post, .list-post{
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.list-post .post .desc-post {
-    min-height: 63px;
-}
-.date-post {
-    font-size: 13px;
-    color: #879bb3;
-    line-height: 25px;
-    font-style: italic;
-}
-.pull-left {
-    float: left !important;
-}
-.text-right {
-    text-align: right !important;
-}
-.tags {
-    font-size: 13px;
-}
-.tags a {
-    white-space: nowrap;
-    font-style: italic;
-    color: #879bb3;
-    line-height: 25px;
-}
-.desc-post {
-    font-size: 15px;
-    color: #454e59;
-    margin-bottom: 5px;
-    line-height: 20px;
-}
-@media (min-width: 740px){
-    .gazeta-post {
-        margin-bottom: 30px;
-    }
-}
-.item-gazeta {
-    border-top: 1px solid #f3f7fb;
-    border-bottom: 1px solid #d5dbe3;
-    padding: 19px 38px 5px;
-}
-@media (min-width: 992px){
-    .item-gazeta {
+    .img-post img {
         width: 100%;
+        height: auto;
+        transition: opacity .2s .02s ease;
     }
-}
-.gazeta-post{
-    background: rgba(230, 230, 246, .5);
-    border-left: 1px solid #e5e6e7;
-    border-right: 1px solid #e5e6e7;
-    border-bottom: 1px solid #e5e6e7;
-    box-shadow: 0 2px 3px 0 rgb(0 0 0 / 10%);
-    position: relative;
-    padding-top: 0;
-}
+    .post{
+        width: 33.3333%;
+        border-bottom: 1px solid #e1e6ed;
+        display: block;
+    }
+    .list-post{
+        padding-top: 20px;
+    }
+    .post, .list-post{
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .list-post .post .desc-post {
+        min-height: 63px;
+    }
+    .date-post {
+        font-size: 13px;
+        color: #879bb3;
+        line-height: 25px;
+        font-style: italic;
+    }
+    .pull-left {
+        float: left !important;
+    }
+    .text-right {
+        text-align: right !important;
+    }
+    .tags {
+        font-size: 13px;
+    }
+    .tags a {
+        white-space: nowrap;
+        font-style: italic;
+        color: #879bb3;
+        line-height: 25px;
+    }
+    .desc-post {
+        font-size: 15px;
+        color: #454e59;
+        margin-bottom: 5px;
+        line-height: 20px;
+    }
+    @media (min-width: 740px){
+        .gazeta-post {
+            margin-bottom: 30px;
+        }
+    }
+    .item-gazeta {
+        border-top: 1px solid #f3f7fb;
+        border-bottom: 1px solid #d5dbe3;
+        padding: 19px 38px 5px;
+    }
+    @media (min-width: 992px){
+        .item-gazeta {
+            width: 100%;
+        }
+    }
+    .gazeta-post{
+        background: rgba(230, 230, 246, .5);
+        border-left: 1px solid #e5e6e7;
+        border-right: 1px solid #e5e6e7;
+        border-bottom: 1px solid #e5e6e7;
+        box-shadow: 0 2px 3px 0 rgb(0 0 0 / 10%);
+        position: relative;
+        padding-top: 0;
+    }
 .blue-block{
     background: #e6eff6;
     padding: 45px 0 0;
@@ -608,27 +608,27 @@ footer nav{
 footer .menu{
     max-width: none;
 }
-
-.ps-list{
-float: left;
-width: 27%;
-padding: 0;
-}
-.ps-list img{
-    width: 100%;
-    min-height: 100%;
-    display: block;
-}
-.current {
-    height: 425px!important;
-    width: 73%!important;
-    float: right;
-}
-.current img{
-    width: 100%;
-}
-.ps-list li{
-    height: 85px!important;
-    overflow: hidden;
-    position: relative;
-}
+/* Параметры картинок с новостями по центру */
+    .ps-list{
+    float: left;
+    width: 27%;
+    padding: 0;
+    }
+    .ps-list img{
+        width: 100%;
+        min-height: 100%;
+        display: block;
+    }
+    .current {
+        height: 425px!important;
+        width: 73%!important;
+        float: right;
+    }
+    .current img{
+        width: 100%;
+    }
+    .ps-list li{
+        height: 85px!important;
+        overflow: hidden;
+        position: relative;
+    }
