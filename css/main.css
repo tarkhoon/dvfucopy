@@ -3,11 +3,12 @@
     -webkit-text-size-adjust: 100%;
 }
 
-body{
+body{ /* Тело */
     margin: 0;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
 }
+
 .page-header{
     width: 100%;
 }
@@ -21,12 +22,12 @@ body{
     padding-right: 15px;
 }
 
-.logo{
+.logo{ /* Логотип сверху */
     margin-left: auto;
     margin-right: auto;
 }
 
-.HeadButton
+.HeadButton /* Кнопки в шапке */
 {
     display: flex;
     height: 100%;
@@ -34,7 +35,7 @@ body{
     align-items: center;
 }
 
-.HeadButton:hover
+.HeadButton:hover /* При наведении мышкой */
 {
     text-decoration: underline;
 }
@@ -74,7 +75,7 @@ a{
     right:0;
     z-index: 1001;
 }
-.menu{
+.menu{ /* Меню */
     color:#aed6ff;
     font-size: 15px;
     margin-left: auto;
@@ -134,7 +135,7 @@ nav .menu>li{
     line-height: 18px;
     border-bottom: 1px solid #0c6494;
 }
-.pic{
+.pic{ /* Изображение */
     height: 24px;
     margin: 10px;
     float: left;
@@ -160,7 +161,7 @@ nav .menu>li{
     text-align: left;
 }
 
-.blue{
+.blue{ /* Панель с кнопками */
     width: 1250px;
     height: 416px;
     background: black;
@@ -169,49 +170,43 @@ nav .menu>li{
     margin-left: auto;
 }
 
-.forms{
+.forms{ /* Ряды панеля с кнопками */
     height: 100%;
     text-align: center;
 }
 
-.minecraft{
+.minecraft{ /* Кнопка */
     height: 208px;
     padding: 30px;
     
 }
 
-.minecraft:hover{
+.minecraft:hover{ /* Темнеет при наведении */
     opacity: 0.9;
 }
 
-.without{
-    margin-left: auto;
-    margin-right: auto;
-    width: 1280px;
-    height: 425px;
-    align-items: center;
-    position: relative;
-}
-
-.left{
+.left{ /* Левая панель с кнопками */
     width: 25%;
     padding-right: 15px;
     padding-left: 15px;
 }
 
-.center{
+.center{ /* Центральная панель с изображениями */
     width: 50%;
     padding-right: 15px;
     padding-left: 15px;
 }
+
 .slider{
     background: #fff;
     width: 100%;
     height: 100%;
 }
-.current{
+
+.current{ /* Картин */
     float: right;
 }
+
 .right{
     width: 25%;
     padding-right: 15px;
