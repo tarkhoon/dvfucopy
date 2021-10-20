@@ -227,7 +227,16 @@ nav .menu>li{
     background: #fff;
 }
 
+.rightFBar{
+    height: 85px;
+    background: #fff;
+}
+
 /* Цвета иконок */
+    .rightFBar{
+        height: 85px;
+        background: #fff;
+    }
     .L1Bar:hover{
         background: #0072b6;
         color: white;
