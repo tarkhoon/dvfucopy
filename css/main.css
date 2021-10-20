@@ -203,10 +203,6 @@ nav .menu>li{
     height: 100%;
 }
 
-.current{ /* Картин */
-    float: right;
-}
-
 .right{
     width: 25%;
     padding-right: 15px;
@@ -226,68 +222,60 @@ nav .menu>li{
     height: auto;
 }
 
-.FBar{
+.FBar{ /* Размер иконки */
     height: 85px;
     background: #fff;
 }
-.rightFBar{
-    height: 85px;
-    background: #fff;
-}
-.L1Bar:hover{
-    background: #0072b6;
-    color: white;
-}
 
-.L2Bar:hover{
-    background: #428bca;
-    color: white;
-}
+/* Цвета иконок */
+    .L1Bar:hover{
+        background: #0072b6;
+        color: white;
+    }
 
-.L3Bar:hover{
-    background: #4dbbe9;
-    color: white;
-}
+    .L2Bar:hover{
+        background: #428bca;
+        color: white;
+    }
 
-.L4Bar:hover{
-    background: #01b8bc;
-    color: white;
-}
+    .L3Bar:hover{
+        background: #4dbbe9;
+        color: white;
+    }
 
-.L5Bar:hover{
-    background: #009d75;
-    color: white;
-}
+    .L4Bar:hover{
+        background: #01b8bc;
+        color: white;
+    }
 
-.righticon{
-    width: 85px;
-    height: 85px;
-    float: right;
-}
+    .L5Bar:hover{
+        background: #009d75;
+        color: white;
+    }
 
-.text{
+.text{ /* Текст */
     padding-top: 35px;
     padding-left: 100px;
     padding-bottom: 35px;
     margin-right: 20px;
 }
 
-.coub{
+.coub{ /* Кнопки */
     width: 85px;
     height: 85px;
     position: absolute;
 }
-.coubr{
+.coubr{ /* Правые кнопки */
     width: 85px;
     height: 85px;
     float: right;
 }
 
-.bottombutton:hover{
+.bottombutton:hover{ /* Кнопки в нижней синей полоске */
     background: #055EA2;
 }
 
-.righttext{
+.righttext{ /* Текст правой меню */
     float: left;
     width: calc(100% - 85px);
 }
@@ -298,28 +286,30 @@ padding-top: calc(33px/2);
 padding-bottom: calc(33px/2);
 }
 
-@media (min-width: 1200px){
-    .container{
-        width: 1280px;
-    }
-}
+/* Адаптация размеров */
 
-@media (min-width: 992px) and (max-width: 1200px){
-    .container {
-        width: 970px;
+    @media (min-width: 1200px){
+        .container{
+            width: 1280px;
+        }
     }
-}
 
-@media (min-width: 768px) and (max-width: 992px){
-    .container {
-        width: 750px;
+    @media (min-width: 992px) and (max-width: 1200px){
+        .container {
+            width: 970px;
+        }
     }
-}
-@media screen and (max-width: 992px){
-    .headtext {
-        display: none;
+
+    @media (min-width: 768px) and (max-width: 992px){
+        .container {
+            width: 750px;
+        }
     }
-}
+    @media screen and (max-width: 992px){
+        .headtext {
+            display: none;
+        }
+    }
 
 /* Анимация с меняющимися картинками */
 
