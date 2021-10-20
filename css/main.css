@@ -161,12 +161,12 @@ nav .menu>li{
 }
 
 .blue{
-    margin-left: auto;
-    margin-right: auto;
-    width: 1280px;
+    width: 1250px;
     height: 416px;
     background: black;
     margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .forms{
